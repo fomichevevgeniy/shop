@@ -33,7 +33,7 @@ class ProductAdmin(TranslationAdmin):
     list_editable = ('price', 'quantity', 'size', 'color')
     list_display_links = ('title', )
     prepopulated_fields = {'slug': ('title',)}
-    list_filter = ('title', 'price')
+    list_filter = ('title', 'price', 'quantity')
     inlines = [GalleryInline]
 
 
