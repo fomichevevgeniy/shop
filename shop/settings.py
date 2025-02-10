@@ -151,10 +151,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'monstermost666@gmail.com'
-EMAIL_HOST_PASSWORD = 'hljbfoojbqyryyep'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
-STRIPE_PUBLIC_KEY = 'pk_test_51KniXYAxRYRPHE83bbfdE4ksfdYA2pF8frneghPJUbP2CDE8tiFwzAnS92DVnkvC2hlzGIA0gEShDwXzK3HcRnxe009WCAo7Dc'
+STRIPE_PUBLIC_KEY = ''
 
 
-STRIPE_SECRET_KEY = "sk_test_51KniXYAxRYRPHE83AnQt699xPMqf2yp8jmPl1qY1WhdG5AW7mFyKqLrGjsakvGO5KWb6VQBhCrXW0w3pq2ChmlGp0027FjhCDL"
+STRIPE_SECRET_KEY = ""
